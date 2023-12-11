@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b8aeae;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .weather-container {
+            background-color: #fdfffd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(138, 137, 137, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .weather-icon {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 10px;
+        }
+
+        .temperature {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .location {
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-container">
+        <img class="weather-icon" src="img.jpg" alt="Weather Icon">
+        <div class="temperature">25°C</div>
+        <div class="location">City, Country</div>
+        <div class="description">Clear Sky</div>
+    </div>
+</body>
+</html>
